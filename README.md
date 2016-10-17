@@ -9,6 +9,9 @@ http://apistore.baidu.com/apiworks/servicedetail/697.html
 1、指定出发地、目的地、时间，获取所有车次并显示基本信息
 2、点击某一车次，显示所有座位信息
 
+改进：
+3、将网络请求wx.request方法的调用抽象到requests/request.js文件中；
+
 Github
 https://github.com/VincentWYJ/WXAppTrain.git
 
